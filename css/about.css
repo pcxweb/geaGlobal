@@ -1,0 +1,118 @@
+
+/*内容部分*/
+	#about-con{
+		margin:0px;
+		background-color: #f2f2f2;
+	}
+	#about-con .con-box{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#about-con .con-box .aboutconbox-left{
+		position: relative;
+		top:-50px;
+		width: 80%;
+	}
+	#about-con .con-box .aboutconbox-right{
+		width: 20%;
+	}
+	.panel-group .panel{
+		margin-bottom: 20px;
+	}
+	#about-con .panel-heading{
+		display: flex;
+		justify-content: space-between;
+	}
+	#about-con .panel-danger>.panel-heading{
+		color: #fff;
+    	background-color: #ff9800;
+    	border-color: #ff9800;
+	}
+	#about-con .panel-danger>.panel-heading:hover{
+		background-color: #bd760c;
+	}
+	#about-con .panel-danger>.panel-heading .panel-title a{
+		font-size: 18px;
+		text-decoration: none
+	}
+	.about-right-title{
+		margin-top:20px;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	#about-con .about-con-left{
+		width: 100%;
+		background-color: #fff;
+		padding:5%;
+		
+	}
+	#about-con .about-con-left .desc{
+		width: 50%;
+		margin-bottom: 20px;
+		font-size: 19px;
+	}
+	#about-panel .panel-body h4{
+		color: #ff9800;
+	}
+	#about-panel .img-job{
+		display: flex;
+		justify-content: flex-start;
+		align-items:center;
+		flex-wrap: wrap;
+	}
+	.img-job img{
+		width:30%;
+	}
+	#about-panel .img-job {
+		margin-left: 20px;
+	}
+	#about-panel .img-job  p{
+		font-weight: bold;
+		font-size: 16px;
+	}
+
+	/*右边内容*/
+	.about-con-right{
+		text-align: center;
+		margin-top: 70px;
+	}
+	.about-con-right .about-right-icon span{
+		color: #ff9800;
+		font-size: 5em;
+	}
+	.about-right-menu{
+		display: inline-block;
+		padding:0 36px;
+
+	}
+	.about-right-menu li{
+		margin-top: 20px;
+	}
+	.about-right-menu a{
+		color: #000;
+		display: inline-block;
+	}
+	.about-right-menu a .menu-title{
+		font-weight: bold;
+	}
+	.about-right-menu a .num{
+		font-size: 20px;
+	}
+/*内容部分结束*/
+
+@media (max-width: 768px) {
+	#about-con .con-box .aboutconbox-left,#about-con .con-box .aboutconbox-right{
+		width: 100%;
+	}
+	#about-con .con-box .aboutconbox-left{
+		position: static;
+	}
+	#about-con .about-con-left .desc{
+		width: 80%;
+		font-size: 16px;
+	}
+	.about-con-right{margin-top: 20px;margin-bottom: 20px;}
+	#about-panel .img-job{margin-left: 0}
+	
+
+}

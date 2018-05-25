@@ -1,0 +1,52 @@
+body{background-color: #fff;background-size: 100%;font-size: 62.5%}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:'BuenosAires-Light' ,'Source Serif Pro', serif; courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover,a:focus { text-decoration:none; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%;-webkit-tap-highlight-color: transparent;  }
+table { border-collapse:collapse; border-spacing:0; } 
+img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+.conents .title,.conents .desc{
+  text-align: center;
+}
+.conents .title{
+color: #ff9800;
+margin:3%;
+}
+.conents .desc{
+font-size: 16px;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+
+/*轮播图*/
+	#about{
+		position: relative;
+	}
+	#about .about-title{
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+		color: #ff9800;
+		font-weight: bold;
+		font-size: 3em;
+	}
+	#about-myCarousel .carousel-inner .item img{
+		width: 100%;
+	}
+	@media (max-width: 768px) {
+		#about .about-title{font-size: 26px;width: 100%}
+	}
+/*轮播图结束*/

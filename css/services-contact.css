@@ -1,0 +1,121 @@
+/*services*/
+	#services-con .services-desc{
+		padding:10px;
+		background-color: #fff;
+		box-shadow: 0 0 5px #ff9800; /*b1abab*/
+		border:1px solid #ff9800;
+		margin-bottom: 30px;
+		font-size: 1.2em;
+		line-height: 1.5em;
+		border-radius: 5px;
+	}
+	#services-con .panel-warning>.panel-heading{
+		color: #fff;
+		background-color: #ff9800;
+		border-color: #ff9800;
+	}
+
+/*contact*/
+	#contact .contact-info{
+		background-color: #f4f4f4;
+		padding: 30px;
+	}
+	#contact .contact-info .info-title{
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	#contact .contact-info .info-box{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	#contact .title h1 {
+	    font-size: 3.0517578125em;
+	    font-weight: 900;
+	    line-height: 1.25em;
+	    text-align: center;
+	    margin-top: .8em;
+	    margin-bottom: .125em;
+	}
+	@media only screen and (min-width: 1024px){
+		.info-title h2 {
+		    letter-spacing: -.55px;
+		}
+		#contact .title h1 {
+		    letter-spacing: -1.45px;
+		}
+	}
+	@media only screen and (min-width: 576px){
+		.info-title h2 {
+		    letter-spacing: -.45px;
+		}
+		.info-title h2 {
+		    letter-spacing: -.15px;
+		}
+	}
+	.info-title h2 {
+	    font-size: 2em;
+	    font-weight: 700;
+	}
+	
+	#contact .contact-info .info-box>div{
+		width: 320px;
+		padding:20px 0;
+		text-align: center;
+		background-color: #fff;
+		border-top:4px solid #ff9800;
+		margin-bottom: 20px;
+	}
+	#contact .contact-info .info-box>div.info-tel{
+		margin-right:20px;
+	}
+	#contact .contact-info .info-box>div.info-address{
+		margin-left:20px;
+	}
+	#contact .contact-info .info-box>div.info-address li>div{
+		width: 50%;
+		display: inline-block;
+	}
+	#contact .contact-info .info-box>div .fa{
+		font-size: 35px;
+	}
+	#contact .contact-info .info-box>div h3{
+		font-size: 18px;
+		font-weight: 700;
+	}
+	#contact ul.vertical-links li strong{
+		font-size: 18px;
+	}
+	#contact ul.vertical-links li{
+		font-size: 16px;
+		text-align: center;
+	}
+	#contact ul.vertical-links li:before {
+	    content: "";
+	    display: block;
+	    margin: 1.2em auto;
+	    width: 30%;
+	    border-top: 1px solid #ccc;
+	}
+	#contact  .contact-otherInfo{
+		background-color: #fff;
+	}
+	#contact .contact-otherInfo .info-box>div{
+		box-shadow: 0 0 5px #ccc
+	}
+
+
+	@media (max-width: 768px) {
+		#contact .contact-info .info-box>div.info-tel{width: 100%;margin-right: 0px}
+		#contact .contact-info .info-box>div.info-address{width: 100%;margin-left: 0px}
+		#contact .contact-info .info-title h2{
+			margin-top: 0px;
+			
+		}
+	}
+	@media (min-width: 1200px) {
+		#contact .contact-info .info-box>div{width: 30%}
+	}
