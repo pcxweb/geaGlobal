@@ -126,37 +126,36 @@
 	</section>
 	<!-- 内容开始 -->
 	<section id="services-con">
-		<div class="con-box conents">
-			<div class="title"><h1>How do we service our partners?</h1></div>
+		<div class="con-box">
 			<div class="container">
+				<div class="title"><h1>How do we service our partners?</h1></div>
 				<div class="services-desc">
 					We aim to be a one-stop solution, helping our partners to find new opportunities, maintain business and make business grow.  Going into smaller and regional cities requires a tremendous amount of energy, an understanding of the local culture and enormous patience.  We take advantage of our geographical location and local knowledge to lay the steps down for our partners.
 				</div>
 				<div class="services-desc">
 					We also aim to help our partners achieving specific goals.  One of these examples is faculties matching.  We bring faculty staff from our overseas partnered universities to the corresponding faculty at our local partnered universities.  This has proven to be a good way to generate business, particularly with those faculties having smaller numbers of international students.
 				</div>
-				<div class="panel panel-warning">
-					<div class="panel-heading">
-						Study Tour
-					</div>
-					<div class="panel-body">
-						We are committed to providing students with an international and cross-cultural educational experience. In the future, we will develop a number of overseas study tours for students, such as cultural tours, summer camps, and winter camps. The students will make more international friends, experience the life of studying abroad, develop an international perspective, and eventually achieve a true sense of travel and learning.
-					</div>
-				</div>
-				<div class="panel panel-warning">
-					<div class="panel-heading">
-						Giving Back
-					</div>
-					<div class="panel-body">
-						We are fortunate to be in a industry serving the elite and privileged population in Asia.  We believe in social responsibility and make commitments to help those communities in need.  “Ride For The Children” is our annual fund raising event and the money goes to a rural school for renewing the facilities.
-					</div>
-				</div>
-				<div class="panel panel-warning">
-					<div class="panel-heading">
-						Foreign Teachers
-					</div>
-					<div class="panel-body">
-						The instability and the difficulty in employing foreign teachers are the key problems which have plagued international schools in improving foreign language teaching. We will rely on our qualifications and vast overseas partner institution resources, strictly select of foreign teachers with rich teaching experience and skills, provide more excellent foreign teaching resources to international schools, help students quickly improve their English and stimulate their enthusiasm for learning so that they can successfully enter their ideal institution.
+				<div class="tab">
+					<ul id="myTab" class="nav nav-tabs">
+						<li class="active">
+							<a href="#study" data-toggle="tab">Study <div class="visible-xs"></div> Tour</a>
+						</li>
+						<li><a href="#giving" data-toggle="tab">Giving <div class="visible-xs"></div> Back</a></li>
+						<li><a href="#foreign" data-toggle="tab">Foreign <div class="visible-xs"></div> Teachers</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active" id="study">
+							<div class="img"><img width="100%" src="img/Study Tour.jpg" alt=""></div>
+							<p>We are committed to providing students with an international and cross-cultural educational experience. In the future, we will develop a number of overseas study tours for students, such as cultural tours, summer camps, and winter camps. The students will make more international friends, experience the life of studying abroad, develop an international perspective, and eventually achieve a true sense of travel and learning.</p>
+						</div>
+						<div class="tab-pane fade" id="giving">
+							<div class="img"><img  width="100%" src="img/Giving Back.jpg" alt=""></div>
+							<p>We are fortunate to be in a industry serving the elite and privileged population in Asia.  We believe in social responsibility and make commitments to help those communities in need.  “Ride For The Children” is our annual fund raising event and the money goes to a rural school for renewing the facilities.</p>
+						</div>
+						<div class="tab-pane fade" id="foreign">
+							<div class="img"><img  width="100%" src="img/Foreign Teachers.jpg" alt=""></div>
+							<p>The instability and the difficulty in employing foreign teachers are the key problems which have plagued international schools in improving foreign language teaching. We will rely on our qualifications and vast overseas partner institution resources, strictly select of foreign teachers with rich teaching experience and skills, provide more excellent foreign teaching resources to international schools, help students quickly improve their English and stimulate their enthusiasm for learning so that they can successfully enter their ideal institution.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -224,6 +223,7 @@
 	$(function(){
 		var navListTop = $("#nav-list").height();
 		$("#about").css("margin-top",navListTop+"px")
+		$('#myTab li:eq(1) a').tab('show');
 	})
 
 </script>
