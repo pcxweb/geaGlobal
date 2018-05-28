@@ -8,11 +8,14 @@
 		font-size: 1.2em;
 		line-height: 1.5em;
 		border-radius: 5px;
+		font-family: 'Slabo 27px'; 
 	}
 	#services-con .panel-warning>.panel-heading{
 		color: #fff;
 		background-color: #ff9800;
 		border-color: #ff9800;
+		/*font-weight: bold;*/
+		font-size: 18px;
 	}
 
 /*contact*/
@@ -84,7 +87,7 @@
 	}
 	#contact .contact-info .info-box>div h3{
 		font-size: 18px;
-		font-weight: 700;
+		/*font-weight: 700;*/
 	}
 	#contact ul.vertical-links li strong{
 		font-size: 18px;
@@ -92,6 +95,9 @@
 	#contact ul.vertical-links li{
 		font-size: 16px;
 		text-align: center;
+	}
+	#contact ul.vertical-links li{
+		font-family: "Slabo 27px"
 	}
 	#contact ul.vertical-links li:before {
 	    content: "";

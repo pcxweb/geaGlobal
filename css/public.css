@@ -1,8 +1,16 @@
+@font-face {  
+    font-family: '方正兰亭中黑';  
+    src:url('./fonts/fangzheng.TTF') format('truetype');  
+    font-weight: normal;  
+    font-style: normal;  
+}  
+
+
 body{background-color: #fff;background-size: 100%;font-size: 62.5%}
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
 h1, h2, h3, h4, h5, h6{ font-size:100%; }
 address, cite, dfn, em, var { font-style:normal; }
-code, kbd, pre, samp { font-family:'BuenosAires-Light' ,'Source Serif Pro', serif; courier, monospace; }
+code, kbd, pre, samp { font-family:'Passion One',"arial",'BuenosAires-Light' ,'Source Serif Pro', serif; }
 small{ font-size:12px; }
 ul, ol { list-style:none; }
 a { text-decoration:none; }
@@ -27,8 +35,15 @@ margin:3%;
 font-size: 16px;
 line-height: 1.2;
 margin-bottom: 20px;
-}
+font-family: "Slabo 27px";
 
+}
+.conents .desc h3{
+	font-weight: bold;
+}
+.panel-body{
+	font-family: 'Slabo 27px'; 
+}
 /*轮播图*/
 	#about{
 		position: relative;
@@ -50,3 +65,4 @@ margin-bottom: 20px;
 		#about .about-title{font-size: 26px;width: 100%}
 	}
 /*轮播图结束*/
+

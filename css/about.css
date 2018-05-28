@@ -33,7 +33,8 @@
 	}
 	#about-con .panel-danger>.panel-heading .panel-title a{
 		font-size: 18px;
-		text-decoration: none
+		text-decoration: none;
+		font-family: 'Passion One',"arial";
 	}
 	.about-right-title{
 		margin-top:20px;
@@ -50,9 +51,16 @@
 		width: 50%;
 		margin-bottom: 20px;
 		font-size: 19px;
+		font-family: 'Slabo 27px'; 
+		font-weight: bold;
 	}
 	#about-panel .panel-body h4{
 		color: #ff9800;
+		font-family: 'Passion One',"arial";
+	}
+	#about-panel .panel-body{
+		font-family: 'Slabo 27px'; 
+		font-size: 16px;
 	}
 	#about-panel .img-job{
 		display: flex;
@@ -83,6 +91,7 @@
 	.about-right-menu{
 		display: inline-block;
 		padding:0 36px;
+		font-family: 'Slabo 27px'; 
 
 	}
 	.about-right-menu li{
@@ -115,4 +124,7 @@
 	#about-panel .img-job{margin-left: 0}
 	
 
+}
+@media (min-width: 769px) {
+	#about-panel .img-job .job{margin-left: 20px;width: 65%}
 }

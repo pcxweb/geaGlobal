@@ -1,5 +1,6 @@
 body,html{
   height: 100%;
+  font-family:'Passion One',"arial","Helvetica Neue",Helvetica,sans-serif;
 }
 
 /*导航开始*/
@@ -40,7 +41,8 @@ body,html{
     .nav-right .select-address button{
       width: 135px;
       background-color: #fff;
-      color: #ff9800;
+      color: #000;
+      font-family: "Slabo 27px";
     }
     .nav-right span.fa{
       color: #fff;
@@ -53,6 +55,7 @@ body,html{
     }
     .nav-right .dropdown-menu li>a{
       color: #ff9800;
+      font-family: "Slabo 27px";
     }
     .nav-right input{
       background-color: #ff9800;
@@ -100,6 +103,7 @@ body,html{
       text-decoration: none;
       position: relative;
       padding-bottom: 10px;
+      font-size: 1.5em;
     }
     .nav-menu .nav-menu-list ul li a:hover:after{
       visibility: visible;
@@ -397,6 +401,7 @@ body,html{
   .market-menu .menu-desc{
     padding:10px;
     font-size: 16px;
+    font-family: "Slabo 27px";
   }
   .market-menu .row{
     width: 100%;
@@ -441,10 +446,13 @@ body,html{
     align-items: center;
   }
   #ablutMarket .ablutMarket-title{
-    font-weight: bold;
+    /*font-weight: bold;*/
     margin:10px;
-    font-size: 18px;
+    font-size: 22px;
   }
+   #ablutMarket .ablutMarket-text{
+    font-family: "Slabo 27px";
+   }
   @media (min-width: 1024px) {
     #ablutMarket .ablutMarket-box{
       width: 80%;
@@ -501,6 +509,7 @@ body,html{
   #event .event-conUl li.event-text>div{
     width: 80%;
     font-size: 20px;
+    font-family: "Slabo 27px";
   }
 /*event 结束*/
 /*Partnerships 开始*/
@@ -524,6 +533,9 @@ body,html{
     font-size: 26px;
     line-height: 1.3;
     text-align: center;
+    font-family: "Slabo 27px";
+    font-weight: bold;
+    text-align: left;
   }
   .Partnerships-con .Partcon-textList .Partcon-list li{
     border:3px solid #f39800;
@@ -579,6 +591,7 @@ body,html{
     color: #fff;
     margin-top: 50px;
     font-size: 20px;
+    font-family: "Slabo 27px"
   }
   #footer .row{
     display: flex;
