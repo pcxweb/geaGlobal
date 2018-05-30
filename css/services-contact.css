@@ -13,7 +13,6 @@
 	#myTabContent .tab-pane{position: relative;}
 	#myTabContent .tab-pane p{
 		position: absolute;
-		/*background-color: #fff;*/
 		padding:20px;
 		display: inline-block;
 		width: 30%;
