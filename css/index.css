@@ -1,6 +1,6 @@
 body,html{
   height: 100%;
-  font-family:'Passion One',"arial","Helvetica Neue",Helvetica,sans-serif;
+  font-family:'Lato',sans-serif,'Passion One',"arial","Helvetica Neue",Helvetica;
 }
 
 /*导航开始*/
@@ -42,7 +42,7 @@ body,html{
       width: 135px;
       background-color: #fff;
       color: #000;
-      font-family: "Slabo 27px";
+      font-family: 'Montserrat', sans-serif;
     }
     .nav-right span.fa{
       color: #fff;
@@ -54,7 +54,7 @@ body,html{
       font-size: 22px
     }
     .nav-right .dropdown-menu li>a{
-      font-family: "Slabo 27px";
+      font-family: 'Montserrat', sans-serif;
     }
     .nav-right input{
       background-color: #ff9800;
@@ -102,7 +102,8 @@ body,html{
       text-decoration: none;
       position: relative;
       padding-bottom: 10px;
-      font-size: 1.5em;
+      font-size: 1.3em;
+      font-weight: bold;
     }
     .nav-menu .nav-menu-list ul li a:hover:after{
       visibility: visible;
@@ -400,7 +401,7 @@ body,html{
   .market-menu .menu-desc{
     padding:10px;
     font-size: 16px;
-    font-family: "Slabo 27px";
+    font-family: 'Montserrat', sans-serif,"Slabo 27px";
   }
   .market-menu .row{
     width: 100%;
@@ -445,12 +446,12 @@ body,html{
     align-items: center;
   }
   #ablutMarket .ablutMarket-title{
-    /*font-weight: bold;*/
+    font-weight: bold;
     margin:10px;
-    font-size: 22px;
+    font-size: 20px;
   }
    #ablutMarket .ablutMarket-text{
-    font-family: "Slabo 27px";
+    font-family: 'Montserrat', sans-serif,"Slabo 27px";
    }
   @media (min-width: 1024px) {
     #ablutMarket .ablutMarket-box{
@@ -506,9 +507,9 @@ body,html{
     background-color: #0e6eb8;
   }
   #event .event-conUl li.event-text>div{
-    width: 80%;
+    width: 85%;
     font-size: 20px;
-    font-family: "Slabo 27px";
+    font-family: 'Montserrat', sans-serif,"Slabo 27px";
   }
 /*event 结束*/
 /*Partnerships 开始*/
@@ -532,7 +533,7 @@ body,html{
     font-size: 26px;
     line-height: 1.3;
     text-align: center;
-    font-family: "Slabo 27px";
+    font-family: 'Montserrat', sans-serif,"Slabo 27px";
     font-weight: bold;
     text-align: left;
   }
@@ -590,7 +591,7 @@ body,html{
     color: #fff;
     margin-top: 50px;
     font-size: 20px;
-    font-family: "Slabo 27px"
+    font-family: 'Montserrat', sans-serif,"Slabo 27px"
   }
   #footer .row{
     display: flex;
