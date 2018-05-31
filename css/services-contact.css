@@ -1,23 +1,22 @@
 /*services开始*/
-	#services-con .title{color: #ff9800;margin-top: 10px;padding:15px;}
+	#services-con .title{color: #ff9800;margin-top: 10px;padding:15px;font-family: 'BuenosAires-Bold';}
 	#services-con .services-desc{
 		padding:15px;
 		background-color: #fff;
 		font-size: 1.2em;
 		line-height: 1.5em;
-		font-family: 'Montserrat', sans-serif;
-		font-weight: bold; 
+		/*font-weight: bold; */
 	}
 	#services-con .container{border:1px solid #ddd;margin-top: 30px;padding-right: 0px;padding-left: 0px;}
 	#services-con .tab{margin-top: 20px;border-top: 1px solid #ddd;}
 	#myTabContent .tab-pane{position: relative;}
 	#myTabContent .tab-pane p{
 		position: absolute;
+		/*background-color: #fff;*/
 		padding:20px;
 		display: inline-block;
 		width: 30%;
 		font-size: 16px;
-		font-family: 'Montserrat', sans-serif;
 		background: #fff; /* Fallback */ 
 		background:linear-gradient(-160deg, transparent 2em, #fff 0);
 		/*background: linear-gradient(225deg, transparent 50%, #9E9E9E 50%,#656161) no-repeat 100% 0 / 2em 2em, 
@@ -44,6 +43,7 @@
 	#services-con .nav-tabs>li a{
 		width: 100%;
 		color: #000;
+		font-family: 'BuenosAires-Bold';
 	}
 	.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
 		border-top: none;
@@ -95,7 +95,8 @@
 	}
 	.info-title h2 {
 	    font-size: 2em;
-	    font-weight: 700;
+	    /*font-weight: 700;*/
+	    font-family: 'BuenosAires-Bold';
 	}
 	
 	#contact .contact-info .info-box>div{
@@ -121,7 +122,8 @@
 	}
 	#contact .contact-info .info-box>div h3{
 		font-size: 18px;
-		font-weight: 700;
+		/*font-weight: 700;*/
+		font-family: 'BuenosAires-Bold';
 	}
 	#contact ul.vertical-links li strong{
 		font-size: 18px;
@@ -131,7 +133,7 @@
 		text-align: center;
 	}
 	#contact ul.vertical-links li{
-		font-family: 'Montserrat', sans-serif
+		font-family: 'BuenosAires-Light', sans-serif
 	}
 	#contact ul.vertical-links li:before {
 	    content: "";

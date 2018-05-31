@@ -34,12 +34,12 @@
 	#about-con .panel-danger>.panel-heading .panel-title a{
 		font-size: 18px;
 		text-decoration: none;
-		font-family: 'Lato','Passion One',"arial";
+		font-family: 'BuenosAires-Bold','Passion One',"arial";
 	}
 	.about-right-title{
 		margin-top:20px;
 		font-size: 20px;
-		font-weight: bold;
+		font-family: 'BuenosAires-Bold';
 	}
 	#about-con .about-con-left{
 		width: 100%;
@@ -51,15 +51,14 @@
 		width: 50%;
 		margin-bottom: 20px;
 		font-size: 19px;
-		font-family: 'Montserrat', sans-serif; 
-		font-weight: bold;
+		font-family: 'BuenosAires-Light', sans-serif; 
 	}
 	#about-panel .panel-body h4{
 		color: #ff9800;
-		font-family: 'Lato','Passion One',"arial";
+		font-family: 'BuenosAires-Bold','Passion One',"arial";
 	}
 	#about-panel .panel-body{
-		font-family: 'Montserrat', sans-serif; 
+		font-family: 'BuenosAires-Light', sans-serif; 
 		font-size: 16px;
 	}
 	#about-panel .img-job{
@@ -91,7 +90,7 @@
 	.about-right-menu{
 		display: inline-block;
 		padding:0 36px;
-		font-family: 'Montserrat', sans-serif; 
+		font-family: 'BuenosAires-Light', sans-serif; 
 
 	}
 	.about-right-menu li{
