@@ -187,11 +187,14 @@
 		top:0;
 	}
 	#about-con .about-con-left .desc{
-		width: 80%;
+		width: 95%;
 		font-size: 16px;
 	}
+	.video_bnrsub{font-size:20px;}
 	.about-con-right{margin-top: 20px;margin-bottom: 20px;}
 	#about-panel .img-job{margin-left: 0}
+	/*visible-xs*/
+	#about-con .about-con-left{width: 100%;border-left: none}
 	
 
 }
