@@ -94,6 +94,20 @@
 		color: #000;
 		font-weight: bold;
 	}
+	/*手机端上部导航*/
+	#app-about-nav{
+		text-align: right;
+		margin: 10px;
+		padding-bottom: 10px;
+    	border-bottom: 1px solid #ff9800;
+	}
+	#app-about-nav select{
+		border-radius: 5px;
+	    padding: 6px;
+	    border-color: #ff9800;
+	    font-weight: bold;
+	}
+
 	/*左侧内容*/
 	#about-con .about-con-left{
 		width: 70%;
@@ -185,6 +199,7 @@
 	}
 	#about-con .con-box .aboutconbox-left{
 		top:0;
+		flex-direction: column;
 	}
 	#about-con .about-con-left .desc{
 		width: 95%;
@@ -195,6 +210,7 @@
 	#about-panel .img-job{margin-left: 0}
 	/*visible-xs*/
 	#about-con .about-con-left{width: 100%;border-left: none}
+	#about-panel .img-job  p{font-size: 14px;}
 	
 
 }

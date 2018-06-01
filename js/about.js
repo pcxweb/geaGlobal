@@ -30,7 +30,7 @@ $(function(){
 
     $(".about-con-nav li").click(function(){
     	var inId = $(this).index()
-    	console.log(inId)
+    	// console.log(inId)
     	$(this).find(".fa").css("display","inline")
     	$(this).addClass("active").siblings('li').removeClass('active');
     	$(this).siblings('li').find(".fa").css("display","none")
@@ -51,6 +51,17 @@ $(function(){
     	$(".about-con-nav li").find(".fa").css("display","none");
     	$("#about-panel .li_0").addClass("liboxIn")
     	$(".about-con-left .desc").css("display","block")
+    })
+
+    $("#app-about-nav select").change(function(){
+        var vals = $(this).val()
+        console.log(vals)
+        $(".li_"+vals).addClass("liboxIn").siblings(".libox").removeClass("liboxIn")
+        if(vals>0){
+            $(".about-con-left .desc").css("display","none")
+        }else{
+            $(".about-con-left .desc").css("display","block")
+        }
     })
 	
 })
