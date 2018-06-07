@@ -160,10 +160,12 @@
 	}
 	#about-panel .img-job {
 		margin-left: 20px;
+		padding-top: 10px;
 	}
 	#about-panel .img-job  p{
 		font-weight: bold;
 		font-size: 16px;
+		font-family: 'BuenosAires-Bold'; 
 	}
 	.libox{display: none;transition: all 0.2s linear}
 	.liboxIn{display:block;}

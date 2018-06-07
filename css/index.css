@@ -37,6 +37,15 @@ body,html{
     .nav-right .input-group{
       width: 210px;
     }
+    .nav-right .input-group-btn .btn{
+      border-color: #fff;
+      border-left-color: #ccc;
+      color: #ccc;
+    }
+    .nav-right .input-group-btn .btn:hover{
+      background-color: #fff;
+      color: #ff9800
+    }
     .nav-right .select-address{
       margin-right: 10px;
     }
@@ -76,8 +85,8 @@ body,html{
       font-family: 'BuenosAires-Light', sans-serif;
     }
     .nav-right input{
-      background-color: #ead4b3;
-      border: 1px solid #ead4b3;
+      background-color: #fff;
+      border: 1px solid #fff;
       /*margin-right: 10px;*/
     }
     #btn-menu{
