@@ -60,6 +60,9 @@
 	.about-con-nav li span.fa{
 		display: none;
 	}
+	.about-con-nav li.active span.fa{
+		display: inline;
+	}
 	.about-con-nav h5{
 		font-size: 22px;
 		margin-left: -1.2em;
