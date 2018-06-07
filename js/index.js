@@ -25,9 +25,8 @@ $(function(){
     $("#btn-menu").click(function(){
         $("#nav-menuId").slideToggle(500);
     })
-    $("#nav-menuId li a").click(function(){
-        $("#nav-menuId").slideToggle(500);
-    })
+
+    
     
     mediofun(screenW);
     $(window).resize(function(){
@@ -42,13 +41,13 @@ $(function(){
     // console.log($(this))
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var $target = $(this.hash); //hash 属性是一个可读可写的字符串，该字符串是 URL 的锚部分（从 # 号开始的部分）。
+
       $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
       if ($target.length) {
         var targetOffset = $target.offset().top;
         $('html,body').animate({
           scrollTop: targetOffset-120
-        },
-        1000);
+        },1000);
         return false;
       }
     }
@@ -61,6 +60,10 @@ function mediofun(screenW){
     if(screenW<580){
         $("#nav-menuId").addClass("hidden-xs-menuId")
         $("#nav-menuId").hide();
+        // 只有在移动端点击导航，导航才消失
+        $("#nav-menuId li a").click(function(){
+            $("#nav-menuId").slideToggle(500);
+        })
     }else{
         $("#nav-menuId").removeClass("hidden-xs-menuId")
         $("#nav-menuId").show();
