@@ -60,7 +60,7 @@
 							<input type="text" name="search">
 						</div>
 						<div class="hidden-xs" style="color:#fff">SEARCH</div> -->
-						<div class="input-group hidden-xs" style="width: 150px;">
+						<div class="input-group hidden-xs">
 					      <input type="text" style="height: 30px;" class="form-control" placeholder="">
 					      <span class="input-group-btn">
 					        <button class="btn btn-default" style="padding:4px 6px;" type="button">SEARCH</button>
@@ -82,63 +82,13 @@
 					<li><a href="about.html">About</a></li>
 					<li><a href="index.html#Partnerships">Partnerships</a></li>
 					<li><a href="services.html">Services</a></li>
-					<li><a href="index.html#event">Events</a></li>
+					<li><a href="event.html">Events</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
-
-	<!-- banner 轮播图 -->
-	<section id="about">
-	    <div id="about-myCarousel" data-ride="carousel" class="carousel slide">
-		    <!-- 轮播（Carousel）指标 
-		    <ol class="carousel-indicators">
-		        <li data-target="#about-myCarousel" data-slide-to="0" class="active"></li>
-		        <li data-target="#about-myCarousel" data-slide-to="1"></li>
-		        <li data-target="#about-myCarousel" data-slide-to="2"></li>
-		        <li data-target="#about-myCarousel" data-slide-to="3"></li>
-		        <li data-target="#about-myCarousel" data-slide-to="4"></li>
-		    </ol>   -->
-		    <!-- 轮播（Carousel）项目 -->
-		    <div class="carousel-inner">
-		        <div class="item active">
-		            <img src="img/banner1.png" alt="First slide">
-		        </div>
-		        <div class="item">
-		            <img src="img/banner2.png" alt="Second slide">
-		        </div>
-		        <div class="item">
-		            <img src="img/banner3.png" alt="Third slide">
-		        </div>
-		        <div class="item">
-		            <img src="img/banner4.png" alt="Third slide">
-		        </div>
-		        <div class="item">
-		            <img src="img/banner5.png" alt="Third slide">
-		        </div>
-		    </div>
-		    <!-- 轮播（Carousel）导航 -->
-			<a class="left carousel-control" href="#about-myCarousel" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="right carousel-control" href="#about-myCarousel" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
-		<div class="about-title">
-			<p>We Navigate</p>
-			<h2 class="video_bnrsub">Your Asia Solutions</h2>
-			<!-- <p>WELCOME TO GEA</p>
-			<div class="videocntlnk">
-				<a class="vid_link" href="about.html" tabindex="0">
-					<span>services</span> <span class="glyphicon glyphicon-menu-right gi-1x"></span>
-				</a>
-			</div> -->
-		</div>
-	</section>
+	<div class="jia"></div>
 	<!-- 内容开始 -->
 	<section id="services-con">
 		<div class="con-box">
@@ -197,12 +147,8 @@
 						</div>
 						<div class="foot-icon clearfix">
 							<ul class="clearfix">
-								<!-- <li><a href="#"><span class="fa fa-twitter-square"></span></a></li> -->
-								<li><a target="_blank" href="https://m.facebook.com/wisdomglobaleducation/"><span class="fa fa-facebook-square"></span></a></li>
-								<li><a target="_blank" href="https://www.instagram.com/wisdomglobaleducation/"><span class="fa fa-linkedin-square"></span></a></li>
-								<!-- <li><a href="#"><span class="fa fa-youtube-square"></span></a></li>
-								<li><a href="#"><span class="fa fa-youtube-square"></span></a></li>
-								<li><a href="#"><span class="fa fa-gear"></span></a></li> -->
+								<li><a href="https://m.facebook.com/wisdomglobaleducation/" target="_blank"><span class="fa fa-facebook-square"></span></a></li>
+								<li><a href="https://www.instagram.com/wisdomglobaleducation/" target="_blank"><span class="fa fa-linkedin-square"></span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -218,11 +164,10 @@
 						<div class="foot-menu">
 							<ul>
 								<li><a href="about.html">About</a></li>
-								<li><a href="">Partnerships</a></li>
-								<li><a href="">Services</a></li>
-								<li><a href="">Events</a></li>
-								<li><a href="">Giving</a></li>
-								<li><a href="">Contact</a></li>
+								<li><a href="index.html#Partnerships">Partnerships</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="event.html">Events</a></li>
+								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
 					</div>
@@ -236,9 +181,13 @@
 <script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript">
 	$(function(){
+		// $("#nav-menuId").addClass("nav-menu-white")
 		var navListTop = $("#nav-list").height();
-		$("#about").css("margin-top",navListTop+"px")
-		$('#myTab li:eq(1) a').tab('show');
+		$(".jia").css("height",navListTop+"px");
+		var screenW = $(window).width();
+		if(screenW>1024){
+			$(".jia").css("height",navListTop+30+"px");
+		}
 	})
 
 </script>
