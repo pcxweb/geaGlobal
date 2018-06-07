@@ -34,6 +34,7 @@ $(function(){
         var screenWs = $(window).width();
         mediofun(screenWs); 
     })
+    // $("#homepage_hero-video img").height(screenH)
 
     // jq模仿锚点
 
@@ -56,7 +57,7 @@ $(function(){
 })
 
 function mediofun(screenW){
-    console.log(1+":"+screenW)
+    // console.log(1+":"+screenW)
     if(screenW<580){
         $("#nav-menuId").addClass("hidden-xs-menuId")
         $("#nav-menuId").hide();

@@ -1,0 +1,430 @@
+.Mtop50{
+	margin:50px auto;
+}
+/*event主页开始*/
+
+	#event-con{
+		padding: 50px 0px;
+		background-color:#f6f6f6; 
+
+	}
+	#event-con .con-box>div{
+		margin-bottom: 20px;
+	}
+	#footer{margin-top: 0px;}
+	#event-con .selectbox{
+		position: relative;
+	}
+	#event-con .selectbox img{
+		width: 100%;
+	}
+	#event-con .selectbox .bg{
+		position: absolute;
+		left:0;
+		bottom:0;
+		width: 100%;
+		height: 70%;
+		background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(30%, transparent), color-stop(100%, black));
+	    background-image: -webkit-linear-gradient(transparent 30%, rgba(0, 0, 0, 0.8));
+	    background-image: -moz-linear-gradient(transparent 30%, rgba(0, 0, 0, 0.8));
+	    background-image: -o-linear-gradient(transparent 30%, rgba(0, 0, 0, 0.8));
+	    background-image: linear-gradient(transparent 30%, rgba(0, 0, 0, 0.8));
+	}
+	#event-con .selectbox  .title-choose{
+		color: #fff;
+		position: absolute;
+		bottom: 20px;
+		left:10px;
+		padding:15px;
+		width: 100%;
+		
+	}
+	#event-con .selectbox  .title-choose h5{
+		font-size: 30px;
+	}
+	/*#event-con .selectbox  .title-choose .choose{
+
+	}*/
+	#event-con .selectbox  .title-choose .choose{
+		width: 98%;
+		color: #000;
+		font-size: 22px;
+		padding:10px 2%;
+		background-color: #fff;
+		position: relative;
+	}
+	#event-con .selectbox  .title-choose .choose-desc{
+		position: relative;
+	}
+	#event-con .selectbox  .title-choose .choose-desc span{
+		position: absolute;
+		color: #b31b1b;
+		top:50%;
+		right: 10px;
+		text-align: right;
+		margin-top: -11px;
+	}
+	#event-con .selectbox  .title-choose .choose .choose-list{
+		position: absolute;
+		top: 100%;
+		left:0px;
+		width: 100%;
+		background-color: #fff;
+		border:1px solid #f2f2f2;
+		z-index: 666;
+		display: none;
+	}
+	#event-con .selectbox  .title-choose .choose a{
+		display: block;
+		font-size:16px;
+		text-decoration: none;
+		padding:6px;
+		
+	}
+/*event主页结束*/
+
+/*event开始*/
+	#event2017-con{
+		width: 90%;
+		display: flex;
+		/*flex-wrap: wrap;*/
+	}
+	/*导航*/
+		.event-con-left{
+			width: 20%;
+			font-size: 16px;
+			color: #4a484c;
+			cursor: pointer;
+			margin-right: 10px;
+		}
+		.event-con-left  span{
+			padding-right: 10px;
+		}
+		.event-con-left  span.fa{
+			display: none;
+		}
+		.event-con-left h5{
+			font-size: 18px;
+			margin-left: -1.2em;
+			font-weight: bold;
+			border-top:1px solid #ccc;
+			padding-top: 8px;
+			color: #d85719;
+		}
+		.event-con-left h5.active{
+			color: #d85719;
+		}
+		.event-con-left  li.active{
+			color:#ff9800;
+		}
+		.event-con-left li{
+			width: 100%;
+			border-top:1px solid #ccc;
+			padding:10px;
+			font-size: 16px;
+			transition: all 0.3s linear
+		}
+		.event-con-left ul:last-child li:last-child{
+			border-bottom: 1px solid #ccc;
+		}
+		.event-con-left li .text{transition: all 0.3s linear}
+		.event-con-left li:hover {
+			background-color: #e5e2e0;
+		}
+		.event-con-left li:hover span.fa{
+			color: #000;
+		}
+		.event-con-left li:hover .text{
+			margin-left: 10px;
+			color: #000;
+			font-weight: bold;
+		}
+		/*手机端上部导航*/
+		#app-about-nav{
+			text-align: right;
+			margin: 10px;
+			padding-bottom: 10px;
+	    	border-bottom: 1px solid #ff9800;
+		}
+		#app-about-nav select{
+			border-radius: 5px;
+		    padding: 6px;
+		    border-color: #ff9800;
+		    font-weight: bold;
+		}
+	/*GEA annual内容*/
+		.event-con-right{
+			width: 80%;
+			padding-left: 10px;
+			border-left: 1px solid #ccc;
+		}
+		.event-con-right .event-title{
+			font-size: 20px;
+			color: #ff9800;
+			border-bottom: 1px solid #ccc;
+		}
+		.event-con-right .event-title p{
+			margin:8px 0;
+		}
+		.event-con-right .event-title p.dates{
+			font-size: 16px;
+			color: #000;
+		}
+		.event-con-right .con-box .con-title{
+			font-size: 18px;
+			color: #92d050;
+			font-weight: bold;
+			padding:10px 0;
+		}
+		.event-con-right .con-box .img{
+			width: 100%;
+			overflow:hidden;
+		}
+		.event-con-right .con-box .img:hover img{
+			transform: scale(1.2);
+		}
+		.event-con-right .con-box img{
+			width: 100%;
+			transition: all 0.5s linear;
+		}
+		.event-con-right .con-box .txt{
+			padding:10px 0;
+			color: #666;
+			font-size: 16px;
+			font-family: 'BuenosAires-Bold'
+
+		}
+		.event-con-right .con-box .txt span{
+			font-size: 20px;
+			margin-right: 5px;
+		}
+		.event-con-right .con-box ul{
+			margin-left: 40px;
+			font-family: 'BuenosAires-Regular';
+
+		}
+		.event-con-right .con-box ul li{
+			list-style: square;
+			padding:10px;
+			font-size: 16px;
+		}
+		.event-con-right>div{
+			display: none;
+		}
+		.event-con-right .liboxIn{
+			display: block;
+		}
+
+	/*school内容*/
+		#eventschool-con{
+			padding-left:10px;
+			padding-right:10px;
+		}
+		.schoolevent-con-left {
+			margin-bottom: 50px;
+		}
+		.schoolevent-con-left .school-con-nav h5{
+			font-size: 30px;
+			font-family: "BuenosAires-Bold";
+			cursor: pointer;
+		}
+		.schoolevent-con-left .school-con-nav h5 a{
+			color: #ff9800;
+		}
+		.schoolevent-con-left .school-con-nav ul li{
+			float: left;
+			font-size: 16px;
+			padding-right:10px;
+			color: #000;
+		}
+		.schoolevent-con-left .school-con-nav ul li.data-txt{
+			border-left: 1px solid #666;
+			padding-left:10px;
+
+		}
+		/**/
+		.schoolbox{
+			height: 100%;
+			font-size: 16px;
+			background-color: #e6ebed
+		}
+		.schoolbox .school-left{
+			width: 100%;
+			margin-right: 3%
+		}
+		.schoolevent{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.schoolevent>div{
+			padding-left:10px;
+			padding-right:10px;
+			margin-bottom: 20px;
+			/*background-color: #e6ebed*/
+		}
+
+		/*轮播*/
+		.schoolbox .tabPage{
+			text-align: right;
+			position: absolute;
+		    bottom: 0px;
+		    right: 0px;
+		    z-index: 99;
+		}
+		.schoolbox .tabPage a{
+			text-decoration: none;
+			display: inline-block;
+			width: 40px;
+			height: 30px;
+			/*background-color: #fff;*/
+			color: #ffffff;
+			/*border:1px solid #d85719;*/
+			/*border-bottom: none;*/
+			line-height: 33px;
+			text-align: center;
+		}
+		.schoolbox .tabPage a:last-child{
+			border-left: none
+		}
+		/*轮播上的日期*/
+		.tagdate{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			position: absolute;
+			min-height: 5rem;
+    		min-width: 5rem;
+    		padding: .4rem;
+    		left: 1.25rem;
+    		top:0;
+    		z-index: 60;
+    		background: #fff;
+    		border-top: .6rem solid #e22319;
+    		box-shadow: 0 2px 16px rgba(0,0,0,.05);
+    		text-align: center;
+    		color: #000;
+		}
+		.tagdate .day{
+			font-size: 24px;
+			font-family: 'BuenosAires-Bold'
+		}
+		.schoolbox .carousel:before{
+			content: '';
+		    display: block;
+		    height: 4px;
+		    left: 0;
+		    position: absolute;
+		    top: 0;
+		    width: 100%;
+		    z-index: 2;
+		    background: rgba(0,0,0,.2);
+    		z-index: 66;
+
+		}
+		.schoolbox .carousel:after{
+			content: '';
+		    display: block;
+		    height: 30%;
+		    left: 0;
+		    position: absolute;
+		    bottom: 0;
+		    width: 100%;
+		    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(30%, transparent), color-stop(100%, black));
+			background-image: -webkit-linear-gradient(transparent 30%, rgba(0, 0, 0, 0.8));
+			background-image: -moz-linear-gradient(transparent 30%, rgba(0, 0, 0, 0.8));
+			background-image: -o-linear-gradient(transparent 30%, rgba(0, 0, 0, 0.8));
+			background-image: linear-gradient(transparent 30%, rgba(0, 0, 0, 0.8));
+    		z-index: 66;
+		}
+
+		/*右边文字*/
+		.schoolbox .school-right{
+			padding:20px 10px;
+		}
+		.schoolbox .school-right p:first-child{
+			font-family: 'BuenosAires-Bold';
+			margin-bottom: 20px;
+			/*color: #0a2d50;*/
+		}
+		
+		.schoolbox .school-right p span{
+			margin-right: 5px;
+			/*color: #d85719;*/
+		}
+		.schoolbox .school-right p span.fa-map-marker{
+			width: 14px;
+			text-align: center;
+			font-size: 18px;
+		}	
+		.schoolevent-con-right>div{display: none}
+		.schoolevent-con-right .liboxIn{
+			display: flex;
+		}
+
+
+/*event结束*/
+
+/*响应式*/
+@media (max-width: 767px) {
+	#event2017-con{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	/*导航部分*/
+	.event-con-left{width: 100%}
+	/*内容部分*/
+	.event-con-right{
+		width: 100%;
+		border:none;
+		padding:5px;
+	}
+	.Mtop50{
+		margin:10px auto;
+	}
+	.schoolbox{
+		flex-direction: column;
+	}
+	.schoolbox .school-left{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.schoolbox .school-right{
+		width: 100%;
+	}
+	#event-con .selectbox .title-choose .choose-desc{
+		white-space: nowrap;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	    padding-right: 20px;
+	    font-size: 14px;
+	}
+	#event-con .selectbox .title-choose .choose-desc span{
+		margin-top: -7px;
+	}
+	#event-con .selectbox .title-choose h5{
+		font-size: 20px;
+	}
+	#event-con .selectbox .title-choose{
+		bottom: 0px;
+	}
+	#event-con .selectbox .title-choose .choose a{font-size: 12px;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

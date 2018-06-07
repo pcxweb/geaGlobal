@@ -20,7 +20,7 @@
 
 @font-face {  
     font-family: 'BuenosAires-Regular';  
-    src:url('./fonts/BuenosAires-Regular.otf') format('truetype');  
+    src:url('../fonts/BuenosAires-Regular.otf') format('truetype');  
     font-weight: normal;  
     font-style: normal;  
 }  
@@ -73,15 +73,21 @@ fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none;
 		left:50%;
 		transform: translate(-50%,-50%);
 		text-align: center;
-		color: #ff9800;
+		color: #fff;
 		font-weight: bold;
 		font-size: 3em;
 	}
 	#about-myCarousel .carousel-inner .item img{
 		width: 100%;
 	}
-	@media (max-width: 768px) {
-		#about .about-title{font-size: 26px;width: 100%}
+	@media (max-width: 1024px) and (min-width: 768px){
+	  	/*#about .about-title{font-size:2em;width: 100%}*/
+		#about .about-title .video_bnrsub{margin: 5px; font-size: 0.8em;}
+	}
+	@media (max-width: 767px) {
+		#about .about-title{font-size: 20px;width: 100%}
+		#about .about-title .video_bnrsub{margin: 5px; font-size: 20px;}
+
 	}
 /*轮播图结束*/
 
