@@ -621,7 +621,7 @@ body,html{
     padding:30px;
     color: #fff;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'BuenosAires-Light', sans-serif,"Slabo 27px"
   }
   #footer .row{
@@ -646,6 +646,10 @@ body,html{
   .foot-menu>div{
     margin-bottom: 20px;
   }
+  #footer .foot-title{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
   .foot-search{
     margin-bottom: 10px;
   }
@@ -658,9 +662,14 @@ body,html{
   }
   .foot-menu ul li a{
     color: #fff;
+    text-decoration: underline;
   }
   .foot-menu ul li a:hover:focus{
     text-decoration: underline;
+  }
+  #footer .imgtext img{
+    width: 160px;
+    margin-bottom: 10px;
   }
 /*footer脚本结束*/
 
@@ -701,7 +710,7 @@ body,html{
   .conents .title{margin:20px auto;}
   .Partnerships-con .Partcon-textList .Partcon-text{font-size: 16px;}
   #Partnerships .Partcon-img{text-align: center;}
-  .foot-menu{margin-top: 30px;font-size: 16px;}
+  .foot-menu{font-size: 16px;}
   #footer{padding:30px 0;}
 
 }
