@@ -649,6 +649,8 @@ body,html{
   #footer .foot-title{
     margin-bottom: 20px;
     font-size: 20px;
+    border-bottom: 2px solid #8c8686;
+    padding-bottom: 5px;
   }
   .foot-search{
     margin-bottom: 10px;
