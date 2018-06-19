@@ -207,106 +207,106 @@ body,html{
         color: #ff9800;
       }
     }
-	
+  
 /*导航结束*/
 /*视频内容开始*/
-	.vedio-con{
-		position: relative;
-		padding-top: 0px !important;
-		padding-bottom: 0px !important;
-		overflow:hidden;
-		background-color: #fff;
-		width: 100%;
-	 height: 100%;
+  .vedio-con{
+    position: relative;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    overflow:hidden;
+    background-color: #fff;
+    width: 100%;
+   height: 100%;
    margin-bottom: 0px;
    margin-top:50px;
     
-	}
-	.hero_video_wrapper .hero_video_player #homepage_hero-video{
-		width:100%;
+  }
+  .hero_video_wrapper .hero_video_player #homepage_hero-video{
+    width:100%;
     height:100%;
     object-fit: cover;
     object-position: center;
     vertical-align: middle;
     margin-top: -20px;
-	}
-	.vedio-con .video_banner-text{
-		position: absolute;
+  }
+  .vedio-con .video_banner-text{
+    position: absolute;
     top: 50%;
     left: 50%;
     z-index: 15;
     color: #FFF;
     padding: 20px;
     transform: translate(-50%,-50%);
-	}
-	.vedio-con .video-content{
-		margin:0 auto;
-	}
-	.hero_video_wrapper{
-		overflow:hidden;
-	}
+  }
+  .vedio-con .video-content{
+    margin:0 auto;
+  }
+  .hero_video_wrapper{
+    overflow:hidden;
+  }
 
-	.vid_link{
-		display: inline-block;
-		color: #ffffff;
-		border-radius: 25px;
-		background: linear-gradient(to right, #e61937 0%, #ff9800 100%);
-		text-transform: uppercase;
-		font-size: 18px;
-		line-height: 2.444;
-		padding-right: 50px;
-		padding-left: 15px;
-		letter-spacing: -0.025em;
-		border: inherit !important;
-		font-family: "BuenosAires-Light";
-		position: relative;
-		text-align: left;
-	}
-	.vid_link:hover{
-		background: #ff9800;
-		color: #fff;
-		text-decoration: none;
-	}
-	.vid_link .gi-1x{
-		position: absolute;
-	    right: 15px;
-	    top: 50%;
-	    transform: translateY(-50%);
-	    font-size: 14px;
-	}
-	/*三个内容*/
-	.vedio-parent{
-		position: relative;
-	    bottom: 0;
-	    margin-bottom: 100px;
-	    margin-top: -100px;
-	    padding-left: 0px;
-	}
-	.vedio-parent .vedio-item{
-		text-align: center;
-		display:flex;
-		justify-content: center;
+  .vid_link{
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 25px;
+    background: linear-gradient(to right, #e61937 0%, #ff9800 100%);
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 2.444;
+    padding-right: 50px;
+    padding-left: 15px;
+    letter-spacing: -0.025em;
+    border: inherit !important;
+    font-family: "BuenosAires-Light";
+    position: relative;
+    text-align: left;
+  }
+  .vid_link:hover{
+    background: #ff9800;
+    color: #fff;
+    text-decoration: none;
+  }
+  .vid_link .gi-1x{
+    position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 14px;
+  }
+  /*三个内容*/
+  .vedio-parent{
+    position: relative;
+      bottom: 0;
+      margin-bottom: 100px;
+      margin-top: -100px;
+      padding-left: 0px;
+  }
+  .vedio-parent .vedio-item{
+    text-align: center;
+    display:flex;
+    justify-content: center;
 
-	}
-	.vedio-parent .vedio-item .item-con{
-		/*position: absolute;*/
-		height: 100%;
-		background-color: #fff;
-		box-shadow: 0px 0px 15px 5px rgba(9, 9, 9, 0.2);
+  }
+  .vedio-parent .vedio-item .item-con{
+    /*position: absolute;*/
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 5px rgba(9, 9, 9, 0.2);
     border: solid 1px #d9d9d6;
     padding:20px;
-	}
+  }
 
-	.vedio-parent .vedio-item .item-con span.fa{
-		font-size:35px;
-		color: #ff8900;
-	}
-	.vedio-parent .vedio-item .item-con .vedio-text{
-		line-height: 1.6;
-		font-size: 16px;
-		color: #a6aab6;
-	}
-	.nav-down{
+  .vedio-parent .vedio-item .item-con span.fa{
+    font-size:35px;
+    color: #ff8900;
+  }
+  .vedio-parent .vedio-item .item-con .vedio-text{
+    line-height: 1.6;
+    font-size: 16px;
+    color: #a6aab6;
+  }
+  .nav-down{
     position: absolute;
     top:80%;
     left:50%;
@@ -322,82 +322,82 @@ body,html{
       to {top: 80%;}
   }
 
-	@media (max-width: 1024px) and (min-width: 768px){
-		.hero_video_wrapper .hero_video_player #homepage_hero-video{
-		    height: auto!important;
+  @media (max-width: 1024px) and (min-width: 768px){
+    .hero_video_wrapper .hero_video_player #homepage_hero-video{
+        height: auto!important;
         margin-top: -60px;
 
-		}
+    }
     .hero_video_wrapper .hero_video_player #homepage_hero-video{
       margin-top: -60px;
     }
 
-		.vid_textwrap .video_bnr_title{
-		    color: #fff;
-		    font-size:3.6em;
-		    line-height: 1.062;
-		    margin-left: 0;
-		    width: 100%;
-		}
-		.video_bnrsub{
-			color: #fff;
-		    font-size:2em;
-		    line-height: 1.062;
-		    margin-left: 0;
-		    width: 100%;
-		}
-		
-	}
-	@media (max-width:768px){
-		.vedio-parent{
-			position: static;
-			margin:10px auto;
-		}
-		.vedio-parent .vedio-item{
-			display: block;
-		}
-		.vedio-parent .vedio-item>div{
-			margin:20px auto;
-		}
-		.vedio-parent .vedio-item .item-con{
-			display: flex;
-			text-align: left;
-		}
-		.vedio-parent .vedio-item .item-con span.fa{
-			display: inline-block;
-			margin-top: 20px;
-			padding:20px;
-		}
-		.vedio-parent .vedio-item .item-con>div{
-			margin-left: 20px;
-		}
-		.vedio-parent .vedio-item .item-con h3{
-			font-size: 20px;
-		}
-	}
-	@media (max-width: 639px){
-		.hero_video_wrapper .hero_video_player video {
-		    height: auto;
-		}
+    .vid_textwrap .video_bnr_title{
+        color: #fff;
+        font-size:3.6em;
+        line-height: 1.062;
+        margin-left: 0;
+        width: 100%;
+    }
+    .video_bnrsub{
+      color: #fff;
+        font-size:2em;
+        line-height: 1.062;
+        margin-left: 0;
+        width: 100%;
+    }
+    
+  }
+  @media (max-width:768px){
+    .vedio-parent{
+      position: static;
+      margin:10px auto;
+    }
+    .vedio-parent .vedio-item{
+      display: block;
+    }
+    .vedio-parent .vedio-item>div{
+      margin:20px auto;
+    }
+    .vedio-parent .vedio-item .item-con{
+      display: flex;
+      text-align: left;
+    }
+    .vedio-parent .vedio-item .item-con span.fa{
+      display: inline-block;
+      margin-top: 20px;
+      padding:20px;
+    }
+    .vedio-parent .vedio-item .item-con>div{
+      margin-left: 20px;
+    }
+    .vedio-parent .vedio-item .item-con h3{
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 639px){
+    .hero_video_wrapper .hero_video_player video {
+        height: auto;
+    }
     .vedio-con .video_banner-text{
       width: 100%;
       text-align: center;
     }
-		.video_bnr_title {
-	    color: #fff;
-	    font-size:1.8em;
+    .video_bnr_title {
+      color: #fff;
+      font-size:1.8em;
 
-		}
-		.video_bnrsub{
-			color: #fff;
-		  font-size:1.2em;
-		  line-height: 1.062;
-		  
-		}
-		.vid_link{
-			font-size: 16px;
-		}
-	}
+    }
+    .video_bnrsub{
+      color: #fff;
+      font-size:1.2em;
+      line-height: 1.062;
+      
+    }
+    .vid_link{
+      font-size: 16px;
+    }
+  }
   @media (min-width: 1024px){
     .vedio-con{
       margin-top:0;
@@ -620,6 +620,32 @@ body,html{
     background-color: #000;
     padding:20px;
     margin-top: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .foot-top .foot-title{
+    font-size: 18px;
+  }
+  .foot-top ul{
+    margin-bottom: 0px;
+    margin-left: 30px;
+  }
+  .foot-icon ul li{
+    float: left;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .foot-icon ul li a{
+    display: inline-block;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border:1px solid #ff9800;
+    border-radius: 100%;
   }
   #footer{
     background-color: #666;
@@ -639,14 +665,7 @@ body,html{
   .foot-logo img{
     width: 60%;
   }
-  .foot-icon ul li{
-    float: left;
-    margin-right: 5px;
-    font-size: 20px;
-  }
-  .foot-icon ul li a{
-    color: #fff;
-  }
+  
   .foot-menu>div{
     margin-bottom: 20px;
   }
