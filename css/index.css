@@ -616,11 +616,15 @@ body,html{
 /*Partnerships 结束*/
 
 /*footer脚本开始*/
-  #footer{
+  .foot-top{
     background-color: #000;
+    padding:20px;
+    margin-top: 50px;
+  }
+  #footer{
+    background-color: #666;
     padding:30px;
     color: #fff;
-    margin-top: 50px;
     font-size: 18px;
     font-family: 'BuenosAires-Light', sans-serif,"Slabo 27px"
   }
@@ -670,7 +674,7 @@ body,html{
     text-decoration: underline;
   }
   #footer .imgtext img{
-    width: 160px;
+    width: 60px;
     margin-bottom: 10px;
   }
 /*footer脚本结束*/
