@@ -90,4 +90,63 @@ fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none;
 
 	}
 /*轮播图结束*/
+.Mtop50{
+	margin:50px auto;
+}
+/*左侧导航*/
+	.event-con-left{
+		width: 20%;
+		font-size: 16px;
+		color: #4a484c;
+		cursor: pointer;
+		margin-right: 10px;
+	}
+	.event-con-left  span{
+		padding-right: 10px;
+	}
+	.event-con-left  span.fa{
+		display: none;
+	}
+	.event-con-left h5{
+		font-size: 18px;
+		margin-left: -1.2em;
+		font-weight: bold;
+		border-top:1px solid #ccc;
+		padding-top: 8px;
+		color: #d85719;
+	}
+	.event-con-left h5.active{
+		color: #d85719;
+	}
+	.event-con-left  li.active{
+		color:#ff9800;
+	}
+	.event-con-left li{
+		width: 100%;
+		border-top:1px solid #ccc;
+		padding:10px;
+		font-size: 16px;
+		transition: all 0.3s linear
+	}
+	.event-con-left ul:last-child li:last-child{
+		border-bottom: 1px solid #ccc;
+	}
+	.event-con-left li .text{transition: all 0.3s linear}
+	.event-con-left li:hover {
+		background-color: #e5e2e0;
+	}
+	.event-con-left li:hover span.fa{
+		color: #000;
+	}
+	.event-con-left li:hover .text{
+		margin-left: 10px;
+		color: #000;
+		font-weight: bold;
+	}
+/*右侧内容*/
+	.event-con-right{
+		width: 80%;
+		padding-left: 10px;
+		border-left: 1px solid #ccc;
+	}
 

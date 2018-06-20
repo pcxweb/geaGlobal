@@ -56,5 +56,47 @@ $(function(){
             $(".about-con-left .desc").css("display","block")
         }
     })
+
+    // 定位指定链接对应展示内容
+     var urlwen = getUrlArgObject();
+     // console.log(urlwen)
+     if(urlwen.tag){
+        var inIdnum = 0;
+        if(urlwen.tag=="leadership"){
+            inIdnum = 1;
+        }else if(urlwen.tag=="history"){
+            inIdnum = 2;
+        }else{
+            inIdnum = 0
+        }
+        // console.log(inIdnum)
+        $(".about-con-nav li").eq(inIdnum).find(".fa").css("display","inline")
+        $(".about-con-nav li").eq(inIdnum).addClass("active").siblings('li').removeClass('active');
+        $(".about-con-nav li").eq(inIdnum).siblings('li').find(".fa").css("display","none")
+        $(".li_"+inIdnum).addClass("liboxIn").siblings(".libox").removeClass("liboxIn")
+        if(inIdnum>0){
+            $(".about-con-left .desc").css("display","none")
+        }else{
+            $(".about-con-left .desc").css("display","block")
+        }
+     }
 	
 })
+
+//url问号后面返回的是对象形式的参数    
+function getUrlArgObject(){    
+    var args=new Object();    
+    var query=location.search.substring(1);//获取查询串    
+    var pairs=query.split(",");//在逗号处断开    
+    for(var i=0;i<pairs.length;i++){    
+        var pos=pairs[i].indexOf('=');//查找name=value    
+        if(pos==-1){//如果没有找到就跳过    
+            continue;    
+        }    
+        var argname=pairs[i].substring(0,pos);//提取name    
+        var value=pairs[i].substring(pos+1);//提取value   
+        // console.log(decodeURI(value)) 
+        args[argname]=decodeURI(value);//存为属性    
+    }    
+    return args;//返回对象    
+}  

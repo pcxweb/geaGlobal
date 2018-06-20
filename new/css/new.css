@@ -1,6 +1,12 @@
+#newbox{
+	width: 100%;
+	display: flex;
+}
+#new {
+	padding-bottom: 80px;
+}
 #new .title{
 	color: #ff9800;
-	text-align: center;
 	margin-bottom: 20px;
 }
 #new .con{
@@ -11,5 +17,35 @@
 	font-family: 'BuenosAires-Bold';
 }
 #new .con a{
+	text-decoration: underline;
+}
+#new .con .imgbox{
+	text-align: center;
+}
+#new .con .imgbox img{
+	width: 60%;
+}
+/*#new .con-img{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}*/
+#newbox .event-con-left{
+	width: 30%;
+}
+#newbox .event-con-left ul{
+	margin-bottom: 0px;
+}
+#newbox .event-con-left h5{
+	margin-top: 0px;
+	
+}
+#newbox .event-con-left h5 a{
+	display: inline-block;
+	width: 100%;
+	color: #d85719;
+}
+#newbox .event-con-left h5:hover a{
 	text-decoration: underline;
 }

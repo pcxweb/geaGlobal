@@ -1,6 +1,4 @@
-.Mtop50{
-	margin:50px auto;
-}
+
 /*event主页开始*/
 
 	#event-con{
@@ -89,7 +87,7 @@
 		display: flex;
 		/*flex-wrap: wrap;*/
 	}
-	/*导航*/
+	/*导航
 		.event-con-left{
 			width: 20%;
 			font-size: 16px;
@@ -138,7 +136,7 @@
 			margin-left: 10px;
 			color: #000;
 			font-weight: bold;
-		}
+		}*/
 		/*手机端上部导航*/
 		#app-about-nav{
 			text-align: right;
