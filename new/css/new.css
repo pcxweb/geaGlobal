@@ -1,0 +1,15 @@
+#new .title{
+	color: #ff9800;
+	text-align: center;
+	margin-bottom: 20px;
+}
+#new .con{
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+#new .blod{
+	font-family: 'BuenosAires-Bold';
+}
+#new .con a{
+	text-decoration: underline;
+}

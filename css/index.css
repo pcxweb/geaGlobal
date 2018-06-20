@@ -697,6 +697,9 @@ body,html{
   .foot-menu .foot-address .fa{
     margin-right: 8px;
   }
+  #footer .imgtext-a a{
+    color: #fff;
+  }
   #footer .imgtext img{
     width: 60px;
     margin-bottom: 10px;
