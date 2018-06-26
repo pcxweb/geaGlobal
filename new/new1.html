@@ -99,7 +99,7 @@
 					</ul>
 					<h5><a href="/geaGlobal/index.html#Partnerships"><span class="fa fa-circle"></span><span class="text">Partnerships</span></a></h5>
 					<h5><a href="/geaGlobal/services.html"><span class="fa fa-circle"></span><span class="text">Services</span></a></h5>
-					<h5><a href="/geaGlobal/contact.html"><span class="fa fa-circle"></span><span class="text">Contact</span></a></h5>
+					<!-- <h5><a href="/geaGlobal/contact.html"><span class="fa fa-circle"></span><span class="text">Contact</span></a></h5> -->
 					<!-- <h5><a href="/geaGlobal/event.html"><span class="fa fa-circle"></span><span class="text">Event</span></a></h5> -->
 					<h5 class="h5nav"><span class="fa fa-circle"></span><span class="text">GEA Annual Conference</span></h5>
 					<ul class="tabBox">
@@ -225,9 +225,9 @@
 		$(".h5nav").click(function(){
 			var indexID = $(this).index();
 			console.log(indexID)
-			if(indexID==5){
+			if(indexID==4){
 				indexID = 1
-			}else if(indexID==7){
+			}else if(indexID==6){
 				indexID = 2
 			}
 			$(".tabBox").eq(indexID).toggle(500).siblings('.tabBox').hide(500)
