@@ -87,16 +87,12 @@
 	</div>
 	<div class="jia"></div>
 	<!-- 新闻内容部分 -->
-
-
-
-
 	<section class="container Mtop50">
 		<div id="newbox">
 			<div class="event-con-left hidden-xs">
 				<div class="about-con-nav hidden-xs">
-					<h5><a href="/geaGlobal/about.html"><span class="fa fa-circle"></span><span class="text">About</span></a></h5>
-					<ul>
+					<h5 class="h5nav"><span class="fa fa-circle"></span><span class="text">About</span></h5>
+					<ul class="tabBox">
 						<li><a href="/geaGlobal/about.html?tag=aboutUs"><span class="fa fa-circle"></span><span class="text">About US</span></a></li>
 						<li><a href="/geaGlobal/about.html?tag=leadership"><span class="fa fa-circle"></span><span class="text">Leadership</span></a></li>
 						<li><a href="/geaGlobal/about.html?tag=history"><span class="fa fa-circle"></span><span class="text">History</span></a></li>
@@ -105,19 +101,20 @@
 					<h5><a href="/geaGlobal/services.html"><span class="fa fa-circle"></span><span class="text">Services</span></a></h5>
 					<h5><a href="/geaGlobal/contact.html"><span class="fa fa-circle"></span><span class="text">Contact</span></a></h5>
 					<!-- <h5><a href="/geaGlobal/event.html"><span class="fa fa-circle"></span><span class="text">Event</span></a></h5> -->
-					<h5><a href="/geaGlobal/event.html"><span class="fa fa-circle"></span><span class="text">GEA Annual Conference</span></a></h5>
-					<ul>
+					<h5 class="h5nav"><span class="fa fa-circle"></span><span class="text">GEA Annual Conference</span></h5>
+					<ul class="tabBox">
 						<li><a href="/geaGlobal/eventchild.html?year=Seventeen"><span class="fa fa-circle"></span><span class="text">2017 Annual Conference (Haikou, Hainan)</span></a></li>
 						<li><span class="fa fa-circle"><a href="/geaGlobal/eventchild.html?year=Sixteen"></span><span class="text">2016 Annual Conference (Zhongshan, Guangdong)</span></a></li>
 						<li><span class="fa fa-circle"><a href="/geaGlobal/eventchild.html?year=Fifteen"></span><span class="text">2015 Annual Conference (Singapore)</span></a></li>
 						<li><span class="fa fa-circle"><a href="/geaGlobal/eventchild.html?year=Fourteen"></span><span class="text">2014 Annual Conference (Qingyuan, Guangdong)</span></a></li>
 					</ul>
-					<h5><a href="/geaGlobal/event.html"><span class="fa fa-circle"></span><span class="text">School Events</span></a></h5>
-					<ul>
+					<h5 class="h5nav"><span class="fa fa-circle"></span><span class="text">School Events</span></h5>
+					<ul class="tabBox">
 						<li><a href="/geaGlobal/eventchildschool.html?txt=schoolOne"><span class="fa fa-circle"></span><span class="text">International Education Exhibition Tour</span></a></li>
 						<li><a href="/geaGlobal/eventchildschool.html?txt=schoolTwo"><span class="fa fa-circle"></span><span class="text">School's Lecture</span></a></li>
 						<li><a href="/geaGlobal/eventchildschool.html?txt=schoolThree"><span class="fa fa-circle"></span><span class="text">Communication With Students In Class</span></a></li>
 					</ul>
+
 				</div>
 			</div>
 			<div class="event-con-right">
@@ -222,6 +219,21 @@
 		if(screenW<1024 && screenW>678){
 			$(".jia").css("height",navListTop+30+"px");
 		}
+
+	
+		$(".tabBox").hide()
+		$(".h5nav").click(function(){
+			var indexID = $(this).index();
+			console.log(indexID)
+			if(indexID==5){
+				indexID = 1
+			}else if(indexID==7){
+				indexID = 2
+			}
+			$(".tabBox").eq(indexID).toggle(500).siblings('.tabBox').hide(500)
+		})
+		
+
 
 	})
 

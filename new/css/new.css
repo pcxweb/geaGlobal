@@ -7,7 +7,7 @@
 }
 #new .title{
 	color: #ff9800;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 #new .con{
 	margin-bottom: 20px;
@@ -32,7 +32,7 @@
 	flex-direction: row;
 }*/
 #newbox .event-con-left{
-	width: 30%;
+	width: 226px;
 }
 #newbox .event-con-left ul{
 	margin-bottom: 0px;
@@ -48,4 +48,11 @@
 }
 #newbox .event-con-left h5:hover a{
 	text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+	.event-con-right{width: 100%;border-left: none;}
+	#new .title h3{font-size: 22px;}
+	#new .con .imgbox img{width: 90%}
+	.Mtop50{margin-top: 20px;}
 }
